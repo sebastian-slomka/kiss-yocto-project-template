@@ -1,0 +1,1 @@
+# KISS Yocto Project Template
