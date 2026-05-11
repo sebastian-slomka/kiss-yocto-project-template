@@ -1,5 +1,8 @@
 *
 
+!/layers/
+!/layers/meta-kiss/
+!/layers/meta-kiss/**
 !/.gitignore
 !/LICENSE
 !/README.md
