@@ -1,5 +1,14 @@
 *
 
+!/configs/
+!/configs/v4.0-kirkstone/
+!/configs/v4.0-kirkstone/kas-project.yml
+!/configs/v5.0-scarthgap/
+!/configs/v5.0-scarthgap/kas-project.yml
+!/configs/v5.3-whinlatter/
+!/configs/v5.3-whinlatter/kas-project.yml
+!/configs/v6.0-wrynose/
+!/configs/v6.0-wrynose/kas-project.yml
 !/layers/
 !/layers/meta-kiss/
 !/layers/meta-kiss/**

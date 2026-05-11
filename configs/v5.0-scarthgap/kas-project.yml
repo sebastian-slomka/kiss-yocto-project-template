@@ -1,0 +1,26 @@
+header:
+  version: 21
+
+machine: qemux86-64
+distro: nodistro
+
+target: core-image-minimal
+
+repos:
+  bitbake:
+    url: https://github.com/openembedded/bitbake.git
+    path: layers/bitbake
+    tag: yocto-5.0.17
+    commit: d3b4c352dd33fca90cd31649eda054b884478739
+    layers: {}
+
+  core:
+    url: https://github.com/openembedded/openembedded-core.git
+    path: layers/openembedded-core
+    tag: yocto-5.0.17
+    commit: 52380df998b3a8fe6a091f8547434a3231320a8e
+    layers:
+      meta:
+
+  meta-kiss:
+    path: layers/meta-kiss
