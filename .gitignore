@@ -7,8 +7,10 @@
 !/configs/v5.0-scarthgap/kas-project.yml
 !/configs/v5.3-whinlatter/
 !/configs/v5.3-whinlatter/kas-project.yml
+!/configs/v5.3-whinlatter/nodistro.conf.json
 !/configs/v6.0-wrynose/
 !/configs/v6.0-wrynose/kas-project.yml
+!/configs/v6.0-wrynose/nodistro.conf.json
 !/layers/
 !/layers/meta-kiss/
 !/layers/meta-kiss/**

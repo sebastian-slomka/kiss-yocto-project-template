@@ -1,0 +1,44 @@
+{
+    "description": "OE nodistro qemux86-64 - yocto-6.0.x",
+    "version": "1.0",
+    "sources": {
+        "bitbake": {
+            "git-remote": {
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/openembedded/bitbake.git"
+                    }
+                },
+                "rev": "5d722b5d65e4eef7befe6376983385421e993f86"
+            },
+            "path": "bitbake"
+        },
+        "openembedded-core": {
+            "git-remote": {
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/openembedded/openembedded-core.git"
+                    }
+                },
+                "rev": "f235ffc43c7783a84e1ac0dce8489fcba8354e12"
+            },
+            "path": "openembedded-core"
+        }
+    },
+    "bitbake-setup": {
+        "configurations": [
+            {
+                "name": "nodistro",
+                "description": "OE nodistro qemux86-64",
+                "setup-dir-name": "oe-nodistro-wrynose",
+                "bb-layers": [
+                    "openembedded-core/meta"
+                ],
+                "oe-fragments": [
+                    "machine/qemux86-64",
+                    "distro/nodistro"
+                ]
+            }
+        ]
+    }
+}
