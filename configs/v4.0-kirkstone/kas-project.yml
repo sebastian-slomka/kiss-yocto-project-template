@@ -17,7 +17,7 @@ repos:
   core:
     url: https://github.com/openembedded/openembedded-core.git
     path: layers/openembedded-core
-    branch: yocto-4.0.35
+    tag: yocto-4.0.35
     commit: 51259c7e933a2ac8ebc01604d6e65607b76b7b56
     layers:
       meta:
